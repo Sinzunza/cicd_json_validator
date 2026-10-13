@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 jobs:
-  build-and-test:
+  build-and-test:            # build-and-test is the name we chose for this job
     runs-on: windows-latest
 
     steps:
