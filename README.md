@@ -1,7 +1,8 @@
 # JSON Validator
 
 A small, dependency-free C++ program that checks whether files contain valid
-JSON.
+JSON. GitHub Actions workflows compile the project and run its tests on
+GitHub-hosted Linux and Windows runners.
 
 ## Requirements
 
@@ -62,3 +63,7 @@ The command prints `VALID` or `INVALID` for each file. It exits with code `0`
 when every file is valid, code `1` when any file is invalid or cannot be read,
 and code `2` when no file arguments are provided. These exit codes will be
 useful in a later CI phase.
+
+## Note
+
+This repo is public in order to use GitHub actions for free.
