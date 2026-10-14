@@ -10,7 +10,7 @@ GitHub-hosted Linux and Windows runners.
 - CMake 3.16 or newer
 
 ## Build on Windows
-
+.
 From PowerShell in the project root:
 
 ```powershell
